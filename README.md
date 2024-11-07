@@ -4,6 +4,8 @@ Wallbash template for zed // The editor for what's next
 
 ## Preview
 
+![zed](assets/preview.mp4)
+
 ## Installation
 
 1. copy `zeditor.dcol` to `~/.config/hyde/wallbash/Wall-Ways/`
