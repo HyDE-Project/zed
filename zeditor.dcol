@@ -1,0 +1,401 @@
+$HOME/.config/zed/themes/Wallbash.json
+{
+    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+    "name": "Wallbash",
+    "author": "The HyDE Project <github.com/HyDE-Project>",
+    "themes": [
+        {
+            "name": "Wallbash",
+            "appearance": "<wallbash_mode>",
+            "style": {
+                "border": "#<wallbash_4xa1>ff",
+                "border.variant": "#<wallbash_4xa2>ff",
+                "border.focused": "#<wallbash_4xa9>ff",
+                "border.selected": "#<wallbash_4xa9>ff",
+                "border.transparent": "#00000000",
+                "border.disabled": "#<wallbash_4xa7>ff",
+                "elevated_surface.background": "#<wallbash_pry1>ff",
+                "surface.background": "#<wallbash_pry1>ff",
+                "background": "#<wallbash_3xa1>ff",
+                "element.background": "#<wallbash_pry1>ff",
+                "element.hover": "#<wallbash_4xa2>ff",
+                "element.active": "#<wallbash_3xa1>ff",
+                "element.selected": "#<wallbash_3xa1>ff",
+                "element.disabled": "#<wallbash_pry1>ff",
+                "drop_target.background": "#<wallbash_txt2>80",
+                "ghost_element.background": "#00000000",
+                "ghost_element.hover": "#<wallbash_4xa2>ff",
+                "ghost_element.active": "#<wallbash_3xa1>ff",
+                "ghost_element.selected": "#<wallbash_3xa1>ff",
+                "ghost_element.disabled": "#<wallbash_pry1>ff",
+                "text": "#<wallbash_txt1>ff",
+                "text.muted": "#<wallbash_txt2>ff",
+                "text.placeholder": "#<wallbash_4xa4>ff",
+                "text.disabled": "#<wallbash_4xa4>ff",
+                "text.accent": "#<wallbash_4xa8>ff",
+                "icon": "#<wallbash_txt1>ff",
+                "icon.muted": "#<wallbash_txt2>ff",
+                "icon.disabled": "#<wallbash_4xa4>ff",
+                "icon.placeholder": "#<wallbash_txt2>ff",
+                "icon.accent": "#<wallbash_4xa8>ff",
+                "status_bar.background": "#<wallbash_3xa1>ff",
+                "title_bar.background": "#<wallbash_3xa1>ff",
+                "title_bar.inactive_background": "#<wallbash_pry1>ff",
+                "toolbar.background": "#<wallbash_pry1>ff",
+                "tab_bar.background": "#<wallbash_pry1>ff",
+                "tab.inactive_background": "#<wallbash_pry1>ff",
+                "tab.active_background": "#<wallbash_pry1>ff",
+                "search.match_background": "#<wallbash_4xa6>66",
+                "panel.background": "#<wallbash_pry1>ff",
+                "panel.focused_border": null,
+                "pane.focused_border": null,
+                "scrollbar.thumb.background": "#<wallbash_pry4>1c",
+                "scrollbar.thumb.hover_background": "#<wallbash_4xa2>ff",
+                "scrollbar.thumb.border": "#<wallbash_4xa2>ff",
+                "scrollbar.track.background": "#00000000",
+                "scrollbar.track.border": "#<wallbash_2xa5>ff",
+                "editor.foreground": "#<wallbash_txt1>ff",
+                "editor.background": "#<wallbash_pry1>ff",
+                "editor.gutter.background": "#<wallbash_pry1>ff",
+                "editor.subheader.background": "#<wallbash_pry1>ff",
+                "editor.active_line.background": "#<wallbash_4xa4>12",
+                "editor.highlighted_line.background": "#<wallbash_pry1>ff",
+                "editor.line_number": "#<wallbash_txt1>59",
+                "editor.active_line_number": "#<wallbash_txt1>ff",
+                "editor.invisible": "#<wallbash_4xa5>ff",
+                "editor.wrap_guide": "#<wallbash_txt1>0d",
+                "editor.active_wrap_guide": "#<wallbash_txt1>1a",
+                "editor.document_highlight.read_background": "#<wallbash_4xa8>1a",
+                "editor.document_highlight.write_background": "#<wallbash_4xa5>66",
+                "terminal.background": "#<wallbash_pry1>ff",
+                "terminal.foreground": "#<wallbash_txt1>ff",
+                "terminal.bright_foreground": "#<wallbash_txt1>ff",
+                "terminal.dim_foreground": "#<wallbash_pry1>ff",
+                "terminal.ansi.black": "#<wallbash_pry1>",
+                "terminal.ansi.red": "#<wallbash_pry3>",
+                "terminal.ansi.green": "#<wallbash_2xa9>",
+                "terminal.ansi.yellow": "#<wallbash_1xa4>",
+                "terminal.ansi.blue": "#<wallbash_1xa5>",
+                "terminal.ansi.magenta": "#<wallbash_1xa6>",
+                "terminal.ansi.cyan": "#<wallbash_1xa7>",
+                "terminal.ansi.bright_black": "#<wallbash_1xa9>",
+                "terminal.ansi.bright_red": "#<wallbash_2xa1>",
+                "terminal.ansi.bright_green": "#<wallbash_2xa2>",
+                "terminal.ansi.bright_yellow": "#<wallbash_2xa3>",
+                "terminal.ansi.bright_blue": "#<wallbash_2xa4>",
+                "terminal.ansi.bright_magenta": "#<wallbash_2xa5>",
+                "terminal.ansi.bright_cyan": "#<wallbash_2xa6>",
+                "terminal.ansi.dim_black": "#<wallbash_2xa8>",
+                "terminal.ansi.dim_red": "#<wallbash_2xa9>",
+                "terminal.ansi.dim_green": "#<wallbash_3xa1>",
+                "terminal.ansi.dim_yellow": "#<wallbash_3xa2>",
+                "terminal.ansi.dim_blue": "#<wallbash_3xa3>",
+                "terminal.ansi.dim_magenta": "#<wallbash_3xa4>",
+                "terminal.ansi.dim_cyan": "#<wallbash_3xa5>",
+                "terminal.ansi.white": "#<wallbash_txt1>ff",
+                "terminal.ansi.bright_white": "#<wallbash_txt1>ff",
+                "terminal.ansi.dim_white": "#<wallbash_3xa6>",
+                "link_text.hover": "#<wallbash_4xa8>ff",
+                "conflict": "#<wallbash_3xa8>",
+                "conflict.border": "#<wallbash_3xa9>",
+                "conflict.background": "#<wallbash_4xa1>",
+                "created": "#<wallbash_4xa2>",
+                "created.border": "#<wallbash_4xa3>",
+                "created.background": "#<wallbash_4xa4>",
+                "deleted": "#<wallbash_4xa5>",
+                "deleted.border": "#<wallbash_4xa6>",
+                "deleted.background": "#<wallbash_4xa7>",
+                "error": "#<wallbash_4xa8>",
+                "error.border": "#<wallbash_4xa9>",
+                "error.background": "#<wallbash_1xa1>",
+                "hidden": "#<wallbash_4xa4>ff",
+                "hidden.background": "#<wallbash_3xa1>ff",
+                "hidden.border": "#<wallbash_4xa7>ff",
+                "hint": "#<wallbash_1xa5>",
+                "hint.border": "#<wallbash_4xa9>ff",
+                "ignored": "#<wallbash_4xa4>ff",
+                "ignored.background": "#<wallbash_3xa1>ff",
+                "ignored.border": "#<wallbash_4xa1>ff",
+                "info": "#<wallbash_4xa8>ff",
+                "info.border": "#<wallbash_4xa9>ff",
+                "modified": "#<wallbash_2xa5>",
+                "modified.border": "#<wallbash_2xa6>",
+                "modified.background": "#<wallbash_2xa7>",
+                "predictive": "#<wallbash_2xa8>",
+                "predictive.border": "#<wallbash_2xa9>",
+                "predictive.background": "#<wallbash_3xa1>",
+                "renamed": "#<wallbash_4xa8>ff",
+                "renamed.background": "#<wallbash_3xa4>",
+                "renamed.border": "#<wallbash_4xa9>ff",
+                "success": "#<wallbash_3xa5>",
+                "success.border": "#<wallbash_3xa6>",
+                "success.background": "#<wallbash_3xa7>",
+                "unreachable": "#<wallbash_txt2>ff",
+                "unreachable.background": "#<wallbash_3xa1>ff",
+                "unreachable.border": "#<wallbash_4xa1>ff",
+                "warning": "#<wallbash_4xa2>",
+                "warning.border": "#<wallbash_4xa3>",
+                "warning.background": "#<wallbash_4xa4>",
+                "players": [
+                    {
+                        "cursor": "#<wallbash_4xa5>",
+                        "selection": "#<wallbash_4xa6>",
+                        "background": "#<wallbash_4xa7>"
+                    },
+                    {
+                        "cursor": "#<wallbash_4xa8>",
+                        "selection": "#<wallbash_4xa9>",
+                        "background": "#<wallbash_1xa1>"
+                    },
+                    {
+                        "cursor": "#<wallbash_1xa2>",
+                        "selection": "#<wallbash_1xa3>",
+                        "background": "#<wallbash_1xa4>"
+                    },
+                    {
+                        "cursor": "#<wallbash_1xa5>",
+                        "selection": "#<wallbash_1xa6>",
+                        "background": "#<wallbash_1xa7>"
+                    },
+                    {
+                        "cursor": "#<wallbash_1xa8>",
+                        "selection": "#<wallbash_1xa9>",
+                        "background": "#<wallbash_2xa1>"
+                    },
+                    {
+                        "cursor": "#<wallbash_2xa2>",
+                        "selection": "#<wallbash_2xa3>",
+                        "background": "#<wallbash_2xa4>"
+                    },
+                    {
+                        "cursor": "#<wallbash_2xa5>",
+                        "selection": "#<wallbash_2xa6>",
+                        "background": "#<wallbash_2xa7>"
+                    },
+                    {
+                        "cursor": "#<wallbash_2xa8>",
+                        "selection": "#<wallbash_2xa9>",
+                        "background": "#<wallbash_3xa1>"
+                    }
+                ],
+                "syntax": {
+                    "attribute": {
+                        "color": "#<wallbash_3xa2>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "boolean": {
+                        "color": "#<wallbash_3xa3>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "comment": {
+                        "color": "#<wallbash_3xa4>",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "comment.doc": {
+                        "color": "#<wallbash_3xa5>",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "constant": {
+                        "color": "#<wallbash_3xa6>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "constructor": {
+                        "color": "#<wallbash_3xa7>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "embedded": {
+                        "color": "#<wallbash_3xa8>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "emphasis": {
+                        "color": "#<wallbash_3xa9>",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "emphasis.strong": {
+                        "color": "#<wallbash_4xa1>",
+                        "font_style": null,
+                        "font_weight": 700
+                    },
+                    "enum": {
+                        "color": "#<wallbash_4xa2>",
+                        "font_style": null,
+                        "font_weight": 700
+                    },
+                    "function": {
+                        "color": "#<wallbash_2xa9>",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "hint": {
+                        "color": "#<wallbash_4xa4>",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "keyword": {
+                        "color": "#<wallbash_4xa5>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "link_text": {
+                        "color": "#<wallbash_4xa6>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "link_uri": {
+                        "color": "#<wallbash_4xa7>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "number": {
+                        "color": "#<wallbash_4xa8>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "operator": {
+                        "color": "#<wallbash_4xa9>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "predictive": {
+                        "color": "#<wallbash_1xa1>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "predoc": {
+                        "color": "#<wallbash_1xa2>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "primary": {
+                        "color": "#<wallbash_1xa3>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "property": {
+                        "color": "#<wallbash_1xa9>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "punctuation": {
+                        "color": "#<wallbash_1xa5>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "punctuation.bracket": {
+                        "color": "#<wallbash_1xa6>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "punctuation.delimiter": {
+                        "color": "#<wallbash_1xa7>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "punctuation.list_marker": {
+                        "color": "#<wallbash_1xa8>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "punctuation.special": {
+                        "color": "#<wallbash_1xa9>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "punctuation.special.symbol": {
+                        "color": "#<wallbash_2xa1>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "string": {
+                        "color": "#<wallbash_2xa9>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "string.escape": {
+                        "color": "#<wallbash_2xa3>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "string.regex": {
+                        "color": "#<wallbash_2xa4>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "string.special": {
+                        "color": "#<wallbash_2xa5>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "string.special.symbol": {
+                        "color": "#<wallbash_2xa6>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "tag": {
+                        "color": "#<wallbash_2xa7>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "text.literal": {
+                        "color": "#<wallbash_2xa8>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "title": {
+                        "color": "#<wallbash_2xa9>",
+                        "font_style": null,
+                        "font_weight": 800
+                    },
+                    "type": {
+                        "color": "#<wallbash_3xa1>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.interface": {
+                        "color": "#<wallbash_3xa2>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "type.super": {
+                        "color": "#<wallbash_3xa3>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable": {
+                        "color": "#<wallbash_3xa4>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable.member": {
+                        "color": "#<wallbash_3xa5>",
+                        "font_style": null,
+                        "font_weight": null
+                    },
+                    "variable.parameter": {
+                        "color": "#<wallbash_3xa6>",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "variable.special": {
+                        "color": "#<wallbash_3xa7>",
+                        "font_style": "italic",
+                        "font_weight": null
+                    },
+                    "variant": {
+                        "color": "#<wallbash_3xa8>",
+                        "font_style": null,
+                        "font_weight": null
+                    }
+                }
+            }
+        }
+    ]
+}
