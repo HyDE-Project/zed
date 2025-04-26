@@ -14,10 +14,10 @@ Wallbash template for zed // The editor for what's next
 cp zeditor.dcol ~/.config/hyde/wallbash/Wall-Ways/
 ```
 
-2. run `Hyde reload` in the terminal
+2. run `hydectl reload` in the terminal
 
 ```bash
-Hyde reload
+hydectl reload
 ```
 
 3. Enjoy
