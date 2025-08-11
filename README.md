@@ -11,7 +11,7 @@ Wallbash template for zed // The editor for what's next
 1. copy `zeditor.dcol` to `~/.config/hyde/wallbash/always/` to apply on any changes.
 
 ```bash
-cp zeditor.dcol ~/.config/hyde/wallbash/Wall-Ways/
+cp zeditor.dcol ~/.config/hyde/wallbash/always/
 ```
 
 2. run `hydectl reload` in the terminal
